@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونتي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">مدونتي</h1>
+            <nav class="nav">
+                <a href="#" class="nav-link active" data-page="home">الرئيسية</a>
+                <a href="#" class="nav-link" data-page="about">عن المدونة</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div id="home-page" class="page active">
+                <section class="hero">
+                    <h2 class="hero-title">مرحباً بك في مدونتي</h2>
+                    <p class="hero-subtitle">أشارك معك أفكاري وتجاربي في عالم البرمجة والتقنية</p>
+                </section>
+
+                <section class="posts-grid" id="posts-container">
+                </section>
+            </div>
+
+            <div id="about-page" class="page">
+                <section class="about-section">
+                    <h2 class="section-title">عن المدونة</h2>
+                    <p class="about-text">
+                        هذه مدونة شخصية أشارك فيها تجاربي وأفكاري في مجال البرمجة والتطوير.
+                        أهدف إلى تقديم محتوى مفيد وقيم لكل من يهتم بالتعلم والتطور في هذا المجال.
+                    </p>
+                    <p class="about-text">
+                        إذا كان لديك أي استفسار أو تريد التواصل، يمكنك مراسلتي عبر البريد الإلكتروني.
+                    </p>
+                </section>
+            </div>
+
+            <div id="post-page" class="page">
+                <button class="back-btn" id="back-btn">← العودة للمقالات</button>
+                <article class="post-detail" id="post-detail">
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 مدونتي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
